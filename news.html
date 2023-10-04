@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News</title>
+	<style type="text/css">
+		        * {
+            margin: 0px;
+        }
+
+        body {
+            font-family: product sans;
+        }
+        /* Style dasar untuk navbar */
+        .navbar-brand {
+            float: left;
+            font-size: 26px;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            margin-left: 50px;
+            font-weight: bold;
+            
+        }
+        .navbar {
+            background-color: white;
+            
+            border-bottom: #0D1282 solid;
+            position: fixed;
+            width: 100%;
+        }
+
+        /* Style untuk tautan pada navbar */
+        .navbar a {
+            float: right;
+            font-size: 16px;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            padding-left: 10px;
+            margin-right: 50px;
+
+        }
+
+        /* Style untuk tautan navbar ketika hover */
+        .btn {
+            color: black;
+            margin-top: 5px;
+        }
+        .btn:hover {
+            background-color: #952323;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        /* Menampilkan tautan navbar secara vertical pada layar kecil */
+        @media screen and (max-width: 600px) {
+            .navbar a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+
+        .active {
+            margin-top: 5px;
+            background-color: #952323;
+            font-weight: bold;
+            border-radius: 4px;
+            color: white;
+        }
+
+        marquee {
+            background-color: #A8A196;
+            color: white;
+            padding: 15px;
+            font-size: 16px;
+            font-style: italic;
+            margin-top: 60px;
+        }
+        .branda {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 600px;
+            margin-left: 200px;
+        }
+
+        .sidebar {
+            margin-left: 300px;
+            margin-top: 20px:;
+        }
+
+
+        .sidebar-judul h1{
+            font-size: 25px;
+            margin-bottom: 50px;
+        }
+
+        .sidebar-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sidebar img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 20PX;
+        }
+
+        .sidebar-body a {
+            margin-left: 10px;
+            width: 400px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .sidebar-body a:hover {
+            color: red;
+        }
+
+
+        .tube {
+            width: 400px;
+            height: 800px;
+            margin-left: 20px;
+            margin-top: 30px:;
+            background-color: black;
+            display: inline-block;
+            border-radius: 4px;
+            padding-right: 15px;
+            margin-bottom: 15px;
+        }
+
+        .tube-body a h3 {
+            color: white;
+        }
+
+        .tube-judul h1{
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+
+        .tube-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tube-body a {
+            margin-left: 10px;
+            width: 200px;
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            text-align: left;
+            margin-top: 50px;
+        }
+
+        .tube-body a h3:hover {
+            color: #A8A196;
+        }
+
+        iframe {
+            margin-top: 20px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+
+
+        .footer {
+            color: white;
+            text-align: center;
+            padding: 15px;
+
+            
+        }
+
+        .tube-body h3 {
+            margin-top: -50px;
+        }
+	</style>
+</head>
+<body>
+<!-- navbar -->
+
+<div class="navbar">
+    <div class="navbar-brand">
+        <div class="first-name">Astronom<span style="color: #952323; font-style: italic;">.Com</span></div>
+    </div>  
+    <a href="index.html" class="btn">Beranda</a>
+    <a href="news.html" class="active">Berita</a>
+    <a href="astronomi.html" class="btn">Astronomi</a>
+</div>
+
+<!-- akhir navbar -->
+
+<!-- ticker -->
+
+<marquee behavior="scroll" direction="left">
+       <span style="font-weight: bold; font-size: 20px">HOTNEWS!!!</span> Penemuan Jasad Alien di Meksiko yang menggemparkan dunia??, Begini Kata NASA.
+    </marquee>
+
+<!-- akhir ticker -->
+
+
+
+<div class="branda">
+    <div class="content">
+    <div class="sidebar">
+        <div class="sidebar-body">
+       <img src="img/nasa2.png">
+<a href="nasa1.html"><h3>Ledakan Matahari Sangat Dahsyat, NASA Kasih Peringatan ke Bumi</h3></a>
+    </div>
+    <hr>
+    <br>
+    <div class="sidebar-body">
+       <img src="img/nasa3.jpeg">
+ <a href="nasa2.html"><h3>Akhirnya Sekian Lama NASA Buka Suara Soal Jasad Alien di Meksiko</h3></a>
+    </div>
+    <hr>
+    <br>
+    <div class="sidebar-body">
+       <img src="img/nasa4.png">
+<a href="nasa3.html"><h3>NASA Berhasil Ungkap Lokasi Alien, Segini Jaraknya dari Bumi</h3></a>
+    </div>
+    <hr>
+    <br>
+     <div class="sidebar-body">
+       <img src="img/nasa5.jpeg">
+<a href="nasa4.html"><h3>Benih Kehidupan Alien Ditemukan di Saturnus, Ini Kata Ilmuwan</h3></a>
+    </div>
+    <hr>
+    <br>
+    <div class="sidebar-body">
+        
+         <img src="img/nasa7.jpeg">
+<a href="nasa5.html"><h3>Alasan Sinyal Alien Tidak Pernah Sampai ke Manusia Bumi</h3></a>
+    </div>
+    </div>
+    </div>
+     <div class="tube">
+        <div class="tube-judul">
+        </div>
+        <div class="tube-body">
+        <iframe width="150" height="90" src="https://www.youtube.com/embed/p0xG1pcDcSA?si=z_pBvuC6o4WVFaYq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <a href=""><h3>Ledakan Matahari Sangat Dahsyat, NASA Kasih Peringatan ke Bumi</h3></a>
+    </div>
+    <div class="tube-body">
+        <iframe width="150" height="90" src="https://www.youtube.com/embed/7iKaOPW6u6k?si=1UO_0MMNFiYW4nfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <a href=""><h3>NASA Temukan Asteroid Baru, Diperkirakan Tabrak Bumi pada 2046</h3></a>
+    </div>
+    <div class="tube-body">
+        <iframe width="150" height="90" src="https://www.youtube.com/embed/udrESGKo9vg?si=usV_DkXKLk-iVSp9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <a href=""><h3>NASA Hilang Kontak dengan Astronot dan Stasiun Luar Angkasa gara-gara Mati Listrik</h3></a>
+    </div>
+     <div class="tube-body">
+        <iframe width="150" height="90" src="https://www.youtube.com/embed/l1DwIcwObZI?si=c_0qi_jSpG2okS_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <a href=""><h3>NASA Menemukan Planet yang Bisa Menopang Kehidupan</h3></a>
+    </div>
+    <div class="tube-body">
+        <iframe width="150" height="90" src="https://www.youtube.com/embed/p0xG1pcDcSA?si=z_pBvuC6o4WVFaYq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <a href=""><h3>Ledakan Matahari Sangat Dahsyat, NASA Kasih Peringatan ke Bumi</h3></a>
+    </div>
+    <div class="tube-body">
+        <iframe width="150" height="90" src="https://www.youtube.com/embed/7iKaOPW6u6k?si=1UO_0MMNFiYW4nfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <a href=""><h3>NASA Temukan Asteroid Baru, Diperkirakan Tabrak Bumi pada 2046</h3></a>
+    </div>
+</div>
+</div>
+
+<div class="footer" style="background-color: black">
+    <p>Kei<span style="color: #952323; font-style: italic; font-weight: bold">.com</span> 2023</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,217 @@
+        * {
+            margin: 0px;
+        }
+
+        body {
+            font-family: product sans;
+        }
+        /* Style dasar untuk navbar */
+        .navbar-brand {
+            float: left;
+            font-size: 26px;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            margin-left: 50px;
+            font-weight: bold;
+            
+        }
+        .navbar {
+            background-color: white;
+            
+            border-bottom: #0D1282 solid;
+            position: fixed;
+            width: 100%;
+        }
+
+        /* Style untuk tautan pada navbar */
+        .navbar a {
+            float: right;
+            font-size: 16px;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            padding-left: 10px;
+            margin-right: 50px;
+
+        }
+
+        /* Style untuk tautan navbar ketika hover */
+        .btn {
+            color: black;
+            margin-top: 5px;
+        }
+        .btn:hover {
+            background-color: #952323;
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        /* Menampilkan tautan navbar secara vertical pada layar kecil */
+        @media screen and (max-width: 600px) {
+            .navbar a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+
+        .active {
+            margin-top: 5px;
+            background-color: #952323;
+            font-weight: bold;
+            border-radius: 4px;
+            color: white;
+        }
+
+        marquee {
+            background-color: #A8A196;
+            color: white;
+            padding: 15px;
+            font-size: 16px;
+            font-style: italic;
+            margin-top: 60px;
+        }
+/* 
+        marquee {
+            background-color: #A8A196;
+            color: white;
+            padding: 15px;
+            font-size: 16px;
+            font-style: italic;
+            position: fixed;
+            margin-top: 13px;
+        }
+        */
+
+        .branda {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 700px;
+            margin-left: 100px;
+        }
+
+        .sidebar {
+            width: 500px
+            height: 900px;
+            margin-left: 20px;
+            margin-top: 20px:;
+            background-color: black;
+            display: inline-block;
+            border-radius: 4px;
+            padding-right: 15px;
+        }
+
+
+        .sidebar-judul h1{
+            color: white;
+            font-size: 25px;
+            margin-bottom: 50px;
+            margin-top: 15px;
+        }
+
+        .sidebar-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sidebar-body a {
+            color: white;
+            margin-left: 10px;
+            width: 200px;
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            text-align: left;
+        }
+
+        .sidebar-body a h3 {
+            color: white;
+        }
+
+        .sidebar-body a h3:hover {
+            color: #A8A196;
+        }
+
+
+        iframe {
+            margin-left: 10px;
+            margin-bottom: 20px;
+        }
+
+        .branda {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 700px;
+            margin-left: 260px;
+            border-bottom: #952323 solid;
+        }
+        
+
+        .content {
+
+        }
+
+        .judul {
+            margin-bottom: 50px;
+            border-bottom: #952323 solid;
+        }
+
+        .content h1 {
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+
+        .content p {
+            text-align: left;
+            margin-left: 5px;
+            margin-bottom: 20px;
+        }
+
+        .isi p {
+            font-style: italic;
+            font-size: 13px;
+            margin-top: 10px;
+        }
+
+
+
+        .lainya {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .card img{
+            width: 200px;
+            height: auto;
+            margin-right: 15px;
+        }
+        .card-content a {
+            text-decoration: none;
+            color: black;
+        }
+        .card-content a h3 {
+            
+            width: 180px;
+            font-size: 13px;
+            margin-left: 15px;
+        }
+
+        .card-content a:hover {
+            color: red;
+        }
+        .footer {
+            margin-top: 20px;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            background-color: black
+        }
