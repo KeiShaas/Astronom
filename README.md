@@ -1,0 +1,2 @@
+# Astronom
+blog pribadi
